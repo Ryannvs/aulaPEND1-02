@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding-block: 3px;
+    background-color: white;
+
+}
+
+.galeria {
+    display: columns;
+    columns: 2;
+    color: white;
+}
+
+.galeria img {
+    width: 100%;
+    padding-block: 3px;
+}
+
+.legenda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #0009;
+}
